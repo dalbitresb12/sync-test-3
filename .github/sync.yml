@@ -1,0 +1,13 @@
+dalbitresb12/sync-test-1:
+  - source: server/db.json
+    dest: db.json
+  - source: server/routes.json
+    dest: routes.json
+  - source: .github/workflows/sync.yml
+    dest: .github/workflows/sync.yml
+
+dalbitresb12/sync-test-2:
+  - source: server/
+    dest: server/
+  - source: .github/workflows/sync.yml
+    dest: .github/workflows/sync.yml
