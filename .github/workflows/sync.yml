@@ -23,6 +23,7 @@ jobs:
             chore
             scope: sync
           REVIEWERS: dalbitresb12
+          BRANCH_PREFIX: chore/file-sync
   enable-automerge:
     name: Enable auto-merge
     needs: [file-sync]
